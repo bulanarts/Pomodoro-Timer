@@ -4,10 +4,19 @@ A Pomodoro Timer built as a desktop app using React + Electron. This is my first
 
 ## Example of Pomodoro Timer
 
-![App Demo](demo.gif)
+<img src="1.png" width="300"/> <img src="2.png" width="300"/> <img src="3.png" width="300"/>
+---
+## ✨ Features
+
+- **Pomodoro Cycle Mode** — Start button triggers a full cycle: 4 work sessions with short breaks and one long break at the end. Progress bar shows where you are in the cycle.
+- **Free Mode** — Click Work or Break buttons to use the timer independently without cycle tracking.
+- **Encouragement Messages** — Rotating motivational messages appear while the timer is running.
+- **Alarm Sound** — Plays when each session ends.
+- **Continue Button** — Timer doesn't auto-advance. You confirm when you're ready for the next session.
+- **Warning Popup** — If you try to switch modes during a cycle, a popup warns you that progress will be lost.
+- **Draggable Window** — Click and drag anywhere on the app to move it.
 
 ---
-
 ## 🙋 Who is this for?
 
 If you are completely new to coding, JavaScript, or React — this README is for you. I was in the same place when I started this project. I didn't know what Node.js was, I didn't know what a terminal was, and I definitely didn't know what `npm` meant.
@@ -120,17 +129,6 @@ The installer will appear in the `dist/` folder.
 
 ---
 
-## ✨ Features
-
-- **Pomodoro Cycle Mode** — Start button triggers a full cycle: 4 work sessions with short breaks and one long break at the end. Progress bar shows where you are in the cycle.
-- **Free Mode** — Click Work or Break buttons to use the timer independently without cycle tracking.
-- **Encouragement Messages** — Rotating motivational messages appear while the timer is running.
-- **Alarm Sound** — Plays when each session ends.
-- **Continue Button** — Timer doesn't auto-advance. You confirm when you're ready for the next session.
-- **Warning Popup** — If you try to switch modes during a cycle, a popup warns you that progress will be lost.
-- **Draggable Window** — Click and drag anywhere on the app to move it.
-
----
 
 ## 🗂️ Project Structure
 
