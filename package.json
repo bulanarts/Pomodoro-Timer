@@ -29,7 +29,7 @@
 
   "build": {
     "appId": "com.my-electron-app",
-    "productName": "WorkFaster",
+    "productName": "PomodoroTimer",
     "files": [
       "build/**/*",
       "public/electron.js"
